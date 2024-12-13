@@ -5,65 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FiveStar Group for Security</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="logo">
             <h1>FiveStar Group</h1>
-            <p>For Security Services</p>
+            <p>Securing Your World</p>
         </div>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#services"><i class="fas fa-shield-alt"></i> Services</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="#team"><i class="fas fa-users"></i> Team</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="home" class="hero">
         <div class="hero-text">
-            <h2>Welcome to FiveStar Group</h2>
-            <p>Your Trusted Partner in Security and Protection</p>
+            <h2>Welcome to <span>FiveStar Group</span></h2>
+            <p>Your Partner in Advanced Security Solutions</p>
+            <a href="#services" class="cta-button">Explore Services</a>
         </div>
     </section>
 
     <section id="services">
-        <h2>Our Services</h2>
+        <h2 class="section-title">Our Services</h2>
         <div class="service-list">
             <div class="service">
+                <i class="fas fa-lock"></i>
                 <h3>Cybersecurity</h3>
-                <p>Advanced solutions to protect your digital assets.</p>
+                <p>Protecting your digital world with cutting-edge technologies.</p>
             </div>
             <div class="service">
+                <i class="fas fa-user-shield"></i>
                 <h3>Personal Security</h3>
-                <p>Highly trained personnel for personal protection.</p>
+                <p>Providing trained personnel for your safety and peace of mind.</p>
             </div>
             <div class="service">
+                <i class="fas fa-calendar-check"></i>
                 <h3>Event Security</h3>
-                <p>Comprehensive planning and execution for event safety.</p>
+                <p>Ensuring safety and seamless operations for all events.</p>
             </div>
         </div>
     </section>
 
     <section id="about">
-        <h2>About Us</h2>
-        <p>
-            At FiveStar Group, we are committed to providing top-notch security services that prioritize your safety and peace of mind.
-            Our team is equipped with cutting-edge technology and trained professionals to deliver excellence.
+        <h2 class="section-title">About Us</h2>
+        <p class="about-text">
+            FiveStar Group is a leader in the security industry, combining innovation, expertise, and reliability. 
+            Our mission is to safeguard lives, assets, and information through top-tier security services.
         </p>
     </section>
 
+    <section id="team">
+        <h2 class="section-title">Meet Our Team</h2>
+        <div class="team-list">
+            <div class="team-member">
+                <img src="team1.jpg" alt="Team Member 1">
+                <h3>John Smith</h3>
+                <p>CEO & Founder</p>
+            </div>
+            <div class="team-member">
+                <img src="team2.jpg" alt="Team Member 2">
+                <h3>Sarah Johnson</h3>
+                <p>Head of Cybersecurity</p>
+            </div>
+            <div class="team-member">
+                <img src="team3.jpg" alt="Team Member 3">
+                <h3>Mark Wilson</h3>
+                <p>Head of Field Operations</p>
+            </div>
+        </div>
+    </section>
+
     <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Phone: +123 456 7890 | Email: info@fivestarsecurity.com</p>
+        <h2 class="section-title">Contact Us</h2>
+        <p>Have questions? Reach out to us!</p>
         <form>
             <input type="text" placeholder="Your Name" required>
             <input type="email" placeholder="Your Email" required>
             <textarea placeholder="Your Message" required></textarea>
             <button type="submit">Send Message</button>
         </form>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
     </section>
 
     <footer>
